@@ -22,9 +22,9 @@ if (config.LANG == 'EN') {
 
 if (config.LANG == 'ML') {
 
-  rashi_desc = 'Auto bio mode മാറ്റാൻ'
-  OFF = '*AUTO BIO OFF ആക്കി💌*'
-  ON = '*AUTO BIO ON ആക്കി💌*'
+  rashi_desc = 'Auto bio mode ʀᴏꜱꜱᴍᴇʀʀʏ'
+  OFF = '*AUTO BIO OFꜰ ʀᴏꜱꜱᴍᴇʀʀʏ*'
+  ON = '*AUTO BIO ON ʀᴏꜱꜱᴍᴇʀʀʏ*'
 }
 
 Raashii.addCommand({ pattern: 'autobio ?(.*)', fromMe: true, desc: rashi_desc, usage: '.autobio on / off' }, (async (message, match) => {
